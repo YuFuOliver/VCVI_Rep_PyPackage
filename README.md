@@ -1,4 +1,4 @@
-# VCVI Replication Package
+# VCVI Rep PyPackage
 
 This repository contains a Python package to replicate the results in the paper **"Vector Copula Variational Inference and Dependent Block Posterior Approximations"** by Yu Fu, Michael Stanley Smith, and Anastasios Panagiotelis ([arxiv link](https://arxiv.org/abs/2503.01072)). The dependencies will be installed automatically by installing the package. The package is developed and maintained by Yu Fu.
 
