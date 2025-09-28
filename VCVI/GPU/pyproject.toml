@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "VCVI_GPU"
+version = "0.1.0"
+dependencies = [
+    "numpy>=1.26.4",
+    "scipy==1.13.1",
+    "bridgestan==2.6.1",
+    "scikit-learn==1.4.2",
+    "ipykernel"
+]
+
+[tool.setuptools]
+packages = ["VCVI_GPU"]
+package-dir = {"VCVI_GPU" = "."}

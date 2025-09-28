@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "VCVI"
+version = "0.1.0"
+dependencies = [
+    "numpy==1.26.4",
+    "scipy==1.13.1",
+    "bridgestan==2.6.1",
+    "pandas==2.0.3",
+    "matplotlib==3.8.4",
+    "seaborn==0.13.2",
+    "scikit-learn==1.4.2",
+    "cmdstanpy>=1.2.4",
+    "ipykernel",
+    "torch==2.4.0"
+]
+
+[tool.setuptools]
+packages = ["VCVI", "VCVI.spline", "VCVI.SVUC"]
+package-dir = {"VCVI" = "."} 
