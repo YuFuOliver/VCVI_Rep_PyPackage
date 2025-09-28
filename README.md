@@ -15,28 +15,26 @@ pip install git+https://github.com/YuFuOliver/VCVI_Rep_PyPackage.git#subdirector
 
 ### Download Replication Files:
 
-#### Empirical results in Section 4.1 (`logit_reg`)
-- Table 2 (and Table A3 in the online appendix): `logit_reg/TABLE_ELBO`:
+#### Empirical results in Section 4.1 (`logit_reg/`):
+- **Table 2** (and **Table A3** in the online appendix): `TABLE_ELBO/`:
   - Run `TABLE_ELBOs_real_GPU_Colab.ipynb` & `TABLE_ELBO_simu_GPU_Colab.ipynb`, and then `TABLE_ELBOs.ipynb`
   - `TABLE_ELBOs_real_GPU_Colab.ipynb` & `TABLE_ELBO_simu_GPU_Colab.ipynb` are designed to run on Google Colab
-- Figure 1: `logit_reg/PLOT_dep.ipynb`
-- Figure 2: `logit_reg/PLOT_qsar.ipynb`
-- Table A1 & Table A5 in the online appendix: `logit_reg/TABLE_time`:
+- **Figure 1**: `PLOT_dep.ipynb`
+- **Figure 2**: `PLOT_qsar.ipynb`
+- **Table A1** & **Table A5** in the online appendix: `TABLE_time/`:
   - Run `TABLE_time_real.ipynb` & `TABLE_time_simu.ipynb`, and then `TABLE_times.ipynb`
 
+#### Empirical results in Section 4.2 (`correlation/`):
+- **Table 3** (and **Table A4** in the online appendix): `TABLE_ELBOs_GPU_to30.ipynb` & `TABLE_ELBOs_GPU_49.ipynb` (designed to run on Google Colab)
+- **Figure 3**: `PLOT_ELBO&beta.ipynb`
 
-#### `correlation`: Empirical results in Section 4.2
-- `TABLE_ELBOs_GPU_to30.ipynb` & `TABLE_ELBOs_GPU_49.ipynb` contain code for Table 3 (and Table A4 in the online appendix)
-  - The codes are designed to run on Google Colab
-- `PLOT_ELBO&beta.ipynb` produces Figure 3
+#### Empirical results in Section 4.3 (`SVUC/`):
+- **Table 4**: `TABLE_para.ipynb` & `TABLE_ELBOtime.ipynb`
+- **Figure 4**: `PLOT_muzeta.ipynb`
 
-#### `SVUC`: Empirical results in Section 4.3
-- `TABLE_para.ipynb` & `TABLE_ELBOtime.ipynb` contain codes for Table 4
-- `PLOT_muzeta.ipynb` produces Figure 4
-
-#### `spline_add`: Empirical results in Section 4.4
-- `TABLE_para.ipynb` & `TABLE_ELBOtime.ipynb` contain codes for Table 5
-- `PLOT_func.ipynb` produces Figure 5
+#### Empirical results in Section 4.4 (`spline_add/`):
+- **Table 5**: `TABLE_para.ipynb` & `TABLE_ELBOtime.ipynb`
+- **Figure 5**: `PLOT_func.ipynb`
 
 
 
