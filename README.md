@@ -13,7 +13,7 @@ The results in **Table2** & **Table3** are trained on **GPU** (via Google Colab)
 pip install git+https://github.com/YuFuOliver/VCVI_Rep_PyPackage.git#subdirectory=VCVI
 ```
 
-### Download Replication Files:
+### Download Replication Files: https://drive.google.com/drive/folders/1TrN7UjVU_8zACuz_ARLuUyC7MQA78vGj?usp=sharing
 
 #### Empirical results in Section 4.1 (`logit_reg/`):
 - **Table 2** (and **Table A3** in the online appendix): `TABLE_ELBO/`:
