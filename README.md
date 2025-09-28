@@ -17,15 +17,14 @@ pip install git+https://github.com/YuFuOliver/VCVI_Rep_PyPackage.git#subdirector
 
 #### Empirical results in Section 4.1 (`logit_reg/`):
 - **Table 2** (and **Table A3** in the online appendix): `TABLE_ELBO/`:
-  - Run `TABLE_ELBOs_real_GPU_Colab.ipynb` & `TABLE_ELBO_simu_GPU_Colab.ipynb`, and then `TABLE_ELBOs.ipynb`
-  - `TABLE_ELBOs_real_GPU_Colab.ipynb` & `TABLE_ELBO_simu_GPU_Colab.ipynb` are designed to run on Google Colab
+  - Run `TABLE_ELBOs_real_GPU_Colab.ipynb` & `TABLE_ELBO_simu_GPU_Colab.ipynb` (designed to be run on Google Colab), and then `TABLE_ELBOs.ipynb`
 - **Figure 1**: `PLOT_dep.ipynb`
 - **Figure 2**: `PLOT_qsar.ipynb`
 - **Table A1** & **Table A5** in the online appendix: `TABLE_time/`:
   - Run `TABLE_time_real.ipynb` & `TABLE_time_simu.ipynb`, and then `TABLE_times.ipynb`
 
 #### Empirical results in Section 4.2 (`correlation/`):
-- **Table 3** (and **Table A4** in the online appendix): `TABLE_ELBOs_GPU_to30.ipynb` & `TABLE_ELBOs_GPU_49.ipynb` (designed to run on Google Colab)
+- **Table 3** (and **Table A4** in the online appendix): `TABLE_ELBOs_GPU_to30.ipynb` & `TABLE_ELBOs_GPU_49.ipynb` (designed to be run on Google Colab)
 - **Figure 3**: `PLOT_ELBO&beta.ipynb`
 
 #### Empirical results in Section 4.3 (`SVUC/`):
