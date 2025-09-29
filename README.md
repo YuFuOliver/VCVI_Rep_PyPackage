@@ -14,7 +14,7 @@ pip install git+https://github.com/YuFuOliver/VCVI_Rep_PyPackage.git#subdirector
 ```
 
 ### Download Replication Files: 
-https://drive.google.com/drive/folders/1QYH6k9dr4CV8yKARyH2hQAhvypV9jAK9?usp=sharing
+https://drive.google.com/drive/folders/1ywL5PIxSJI1QOAtpBJ4Td9SGSBxUBzf5?usp=sharing
 
 #### Empirical results in Section 4.1 (`logit_reg/`):
 - **Table 2** (and **Table A3** in the online appendix): `TABLE_ELBO/`:
